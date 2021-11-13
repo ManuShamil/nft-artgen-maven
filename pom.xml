@@ -1,0 +1,62 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.raul.art-generator</groupId>
+  <artifactId>art-generator</artifactId>
+  <version>0.0.1</version>
+  <name>art-generator</name>
+
+  <properties>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+  </properties>
+
+  <dependencies>
+
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.9</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+    <dependency>
+      <groupId>commons-io</groupId>
+      <artifactId>commons-io</artifactId>
+      <version>2.11.0</version>
+    </dependency>
+
+
+  
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>3.9</version>
+    </dependency>
+  
+    <!-- https://mvnrepository.com/artifact/org.imgscalr/imgscalr-lib -->
+    <dependency>
+      <groupId>org.imgscalr</groupId>
+      <artifactId>imgscalr-lib</artifactId>
+      <version>4.2</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/net.haesleinhuepf/clij2_ -->
+    <dependency>
+      <groupId>net.haesleinhuepf</groupId>
+      <artifactId>clij2_</artifactId>
+      <version>2.5.1.4</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/com.nativelibs4java/javacl -->
+    <dependency>
+      <groupId>com.nativelibs4java</groupId>
+      <artifactId>javacl</artifactId>
+      <version>1.0.0-RC4</version>
+    </dependency>
+
+
+  </dependencies>
+
+
+
+</project>
